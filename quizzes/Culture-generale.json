@@ -1,0 +1,42 @@
+{
+  "title": "Culture générale",
+  "category": "Culture générale",
+  "description": "5 QCM faciles",
+  "questions": [
+    {
+      "question": "Quelle est la capitale de la France ?",
+      "options": ["Londres", "Berlin", "Paris", "Madrid"],
+      "answer": "Paris",
+      "explanation": "Paris est la capitale politique et administrative de la France depuis 508 (Clovis) et de façon continue depuis la Révolution.",
+      "points": 10
+    },
+    {
+      "question": "Combien de continents y a-t-il sur Terre ?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "7",
+      "explanation": "La division la plus utilisée en géographie moderne compte 7 continents : Afrique, Amérique du Nord, Amérique du Sud, Antarctique, Asie, Europe et Océanie.",
+      "points": 10
+    },
+    {
+      "question": "Le plus grand océan sur Terre est :",
+      "options": ["Atlantique", "Arctique", "Pacifique", "Indien"],
+      "answer": "Pacifique",
+      "explanation": "L'océan Pacifique est le plus vaste, couvrant environ un tiers de la surface terrestre, devant l'Atlantique.",
+      "points": 10
+    },
+    {
+      "question": "Le symbole chimique de l'Or est :",
+      "options": ["Ag", "Au", "Fe", "Hg"],
+      "answer": "Au",
+      "explanation": "Le symbole Au vient du latin \"Aurum\".",
+      "points": 10
+    },
+    {
+      "question": "Quel pays a pour capitale Madrid ?",
+      "options": ["Portugal", "Espagne", "Italie", "Argentine"],
+      "answer": "Espagne",
+      "explanation": "Madrid est la capitale et la plus grande ville de l'Espagne.",
+      "points": 10
+    }
+  ]
+}

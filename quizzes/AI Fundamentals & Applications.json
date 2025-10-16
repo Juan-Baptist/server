@@ -1,0 +1,346 @@
+{
+  "title": "COT-5 — Master Set (Deduplicated)",
+  "category": "AI Fundamentals & Applications",
+  "description": "Consolidated set from multiple quizzes. Duplicates removed, four options per question, correct answers verified. Includes detailed explanations.",
+  "questions": [
+    {
+      "question": "Which of the following is an example of a probabilistic calculation?",
+      "options": [
+        "A strong feeling you are most likely correct",
+        "An unreliable calculation",
+        "Wording that is probably correct",
+        "A 78% chance of being wrong"
+      ],
+      "answer": "A 78% chance of being wrong",
+      "points": 10,
+      "explanation": "A probabilistic statement quantifies likelihood (e.g., 78%). Feelings or vague wording are not mathematical probabilities."
+    },
+    {
+      "question": "Which process makes facial recognition possible?",
+      "options": [
+        "Convolutional neural network (CNN)",
+        "Natural language processing (NLP)",
+        "Heads up guidance system (HGS)",
+        "Generative adversarial network (GAN)"
+      ],
+      "answer": "Convolutional neural network (CNN)",
+      "points": 10,
+      "explanation": "CNNs extract visual features from images and are the backbone of modern face recognition systems."
+    },
+    {
+      "question": "Which of the following processes is used by AI to analyze small parts of an image at a time, enabling visual recognition systems to identify parts of an image?",
+      "options": [
+        "Natural language processing (NLP)",
+        "Vocal recognition network (VRN)",
+        "Convolutional neural network (CNN)",
+        "Generative adversarial network (GAN)"
+      ],
+      "answer": "Convolutional neural network (CNN)",
+      "points": 10,
+      "explanation": "Convolutions slide local filters across an image to capture edges, textures, and shapes for recognition."
+    },
+    {
+      "question": "If a doctor asks you to suggest an AI capability to help analyze X-rays, which computer vision technology would you suggest?",
+      "options": [
+        "Heads up guidance system (HGS)",
+        "Natural language processing (NLP)",
+        "Convolutional neural network (CNN)",
+        "Generative adversarial network (GAN)"
+      ],
+      "answer": "Convolutional neural network (CNN)",
+      "points": 10,
+      "explanation": "Medical imaging models rely on CNNs to detect patterns in radiographs (e.g., nodules, fractures)."
+    },
+    {
+      "question": "Which of the following would be a good use of computer vision in a self-driving car?",
+      "options": [
+        "Detecting the speed",
+        "Detecting a stop sign",
+        "Detecting tire pressure",
+        "Detecting trunk capacity"
+      ],
+      "answer": "Detecting a stop sign",
+      "points": 10,
+      "explanation": "CV is used for visual scene understanding: traffic signs, lanes, pedestrians—not internal vehicle metrics."
+    },
+    {
+      "question": "Which of the following Narrow AI systems would you want to include when building the Broad AI system for a self-driving car?",
+      "options": [
+        "Entertainment trends",
+        "International news",
+        "Information from the global positioning system (GPS)",
+        "Long-term weather patterns"
+      ],
+      "answer": "Information from the global positioning system (GPS)",
+      "points": 10,
+      "explanation": "Localization via GPS is a critical input integrated with perception and planning within the broader autonomy stack."
+    },
+    {
+      "question": "Which of the following explains why an AI trained with machine learning can rapidly map the best route between two points on a map?",
+      "options": [
+        "It relies on a complete database of all possible routes through the city.",
+        "It predicts traffic problems based on stored alternative routes for every possible situation.",
+        "It performs millions of tiny calculations quickly, trying different routes through trial and error.",
+        "It uses predefined programming instructions to navigate through traffic."
+      ],
+      "answer": "It performs millions of tiny calculations quickly, trying different routes through trial and error.",
+      "points": 10,
+      "explanation": "Search/optimization explores many candidate routes and evaluates them rapidly using learned estimates."
+    },
+    {
+      "question": "Tesla cars are all connected and share what they learn when autonomously driving. This is an example of which of the following levels of AI?",
+      "options": ["General AI", "Programmable AI", "Future AI", "Broad AI"],
+      "answer": "Broad AI",
+      "points": 10,
+      "explanation": "Broad AI fuses several narrow systems (perception, mapping, planning) that collaborate and share knowledge."
+    },
+    {
+      "question": "What type of AI do services such as Netflix use to recommend offerings to users?",
+      "options": ["Future AI", "Broad AI", "General AI", "Narrow AI"],
+      "answer": "Narrow AI",
+      "points": 10,
+      "explanation": "Recommendation engines are specialized systems optimized for a single task—personalized suggestions."
+    },
+    {
+      "question": "Which of the following is the level of AI that is more versatile, can handle a wider range of related tasks, and is focused on integrating AI within specific business processes?",
+      "options": ["Broad AI", "General AI", "Narrow AI", "Programmable AI"],
+      "answer": "Broad AI",
+      "points": 10,
+      "explanation": "Broad AI integrates multiple specialized capabilities to solve a family of related tasks end‑to‑end."
+    },
+    {
+      "question": "_____ is a multidisciplinary field that investigates how to optimize AI’s beneficial impact while reducing unintended or adverse outcomes.",
+      "options": [
+        "AI ethics",
+        "Software engineering",
+        "Quantum computing",
+        "Robotics"
+      ],
+      "answer": "AI ethics",
+      "points": 10,
+      "explanation": "AI ethics and governance address safety, accountability, bias mitigation, and societal benefit."
+    },
+    {
+      "question": "Which pillar of AI is exemplified by anyone being able to describe how an AI system makes a prediction or recommendation?",
+      "options": ["Robustness", "Privacy", "Transparency", "Explainability"],
+      "answer": "Explainability",
+      "points": 10,
+      "explanation": "Explainability focuses on human‑understandable rationales behind model outputs (often enabled by transparency)."
+    },
+    {
+      "question": "Which of the following types of data is categorized as qualitative data, and cannot be processed and analyzed by conventional data tools and methods?",
+      "options": [
+        "Structured data",
+        "Unstructured data",
+        "Data in a database",
+        "Semi-structured data"
+      ],
+      "answer": "Unstructured data",
+      "points": 10,
+      "explanation": "Text, images, and audio lack a fixed schema and need specialized tooling (NLP, CV) beyond classic SQL/BI."
+    },
+    {
+      "question": "Which of the following statements most accurately describes semi-structured data?",
+      "options": [
+        "Information that can be organized in rows and columns, like in a spreadsheet",
+        "Data that combines features of both structured and unstructured data, using metadata for organization",
+        "Quantitative data processed and analyzed by conventional data tools",
+        "Data that lacks any built-in organization or structure, such as images and texts"
+      ],
+      "answer": "Data that combines features of both structured and unstructured data, using metadata for organization",
+      "points": 10,
+      "explanation": "Examples include JSON, XML, and logs—flexible content with tags/keys that provide partial structure."
+    },
+    {
+      "question": "Fill in the blank. All supervised learning algorithms need ______ data.",
+      "options": ["unstructured", "raw", "unlabeled", "labeled"],
+      "answer": "labeled",
+      "points": 10,
+      "explanation": "Supervised learning requires input–output pairs (labels) to learn mappings for prediction."
+    },
+    {
+      "question": "Fill in the blank. Machine learning can analyze ________ data more quickly than a programmable computer can.",
+      "options": ["supervised", "dark", "triangulated", "structured"],
+      "answer": "structured",
+      "points": 10,
+      "explanation": "Given large, well‑organized datasets, ML can uncover correlations/patterns at scale faster than manual, rule‑based code."
+    },
+    {
+      "question": "Artificial intelligence (AI) refers to the ability of a machine to _____________ and ______________.",
+      "options": [
+        "identify emotions, transfer data",
+        "create algorithms, generalize information",
+        "secure data, create algorithms",
+        "learn patterns, make predictions"
+      ],
+      "answer": "learn patterns, make predictions",
+      "points": 10,
+      "explanation": "Learning representations from data and using them to predict/decide is the essence of AI systems."
+    },
+    {
+      "question": "Imagine you are the CEO of a large retail company. Which of the following situations would be the most appropriate use of a chatbot on your website?",
+      "options": [
+        "Handling situations with customers that require empathy and judgment",
+        "Handling situations where customers are unsure of what kind of support they need",
+        "Negotiating personalized discounts and deals with customers",
+        "Answering frequently asked questions (FAQs) about store policy, product availability, and return procedures"
+      ],
+      "answer": "Answering frequently asked questions (FAQs) about store policy, product availability, and return procedures",
+      "points": 10,
+      "explanation": "Chatbots excel at high‑volume, repeatable, policy‑driven questions; complex, sensitive cases go to humans."
+    },
+    {
+      "question": "Which of the following is the messaging channel of a chatbot that interacts with the user who is asking the question?",
+      "options": [
+        "Natural language processing engine",
+        "Frontend",
+        "API gateway",
+        "Backend"
+      ],
+      "answer": "Frontend",
+      "points": 10,
+      "explanation": "The messaging channel is the user‑facing interface (web/mobile/IM) where messages are exchanged."
+    },
+    {
+      "question": "Imagine you want to create a new AI application. Which of the following would be the most suitable use of NLP for the application?",
+      "options": [
+        "An AI-powered stock market prediction tool that analyzes stock prices",
+        "An AI-powered music composer that generates original music pieces based on other compositions",
+        "An AI-powered financial fraud detection system that analyzes transaction patterns",
+        "An AI-powered customer service chatbot that can handle complex inquiries and resolve customer issues"
+      ],
+      "answer": "An AI-powered customer service chatbot that can handle complex inquiries and resolve customer issues",
+      "points": 10,
+      "explanation": "NLP lets applications understand intents, extract entities, and generate helpful, context‑aware responses."
+    },
+    {
+      "question": "What is the primary job role of a business intelligence developer?",
+      "options": [
+        "To use data tools and programming frameworks to create production-ready and scalable data science models",
+        "To develop and maintain software that data scientists and architects use",
+        "To analyze complex data, looking at business and market trends to increase profitability of their organization",
+        "To build mechanical devices that can perform tasks with commands from humans"
+      ],
+      "answer": "To analyze complex data, looking at business and market trends to increase profitability of their organization",
+      "points": 10,
+      "explanation": "BI developers build reports/dashboards and derive insights that improve operations and profitability."
+    },
+    {
+      "question": "Which of the following statements is true about industries in which AI professionals work?",
+      "options": [
+        "Only a few cutting-edge industries have hired AI professionals.",
+        "No industry has hired AI professionals because the industry is not yet stable.",
+        "Industries are not hiring AI professionals because AI technology is not impacting jobs.",
+        "Most industries have already hired or are in the process of hiring AI professionals."
+      ],
+      "answer": "Most industries have already hired or are in the process of hiring AI professionals.",
+      "points": 10,
+      "explanation": "AI roles exist across finance, healthcare, retail, manufacturing, education, and the public sector."
+    },
+    {
+      "question": "What term do AI researchers use to describe the collection of text and data they use to train a debater AI system?",
+      "options": ["Compilation", "Collation", "Corpus", "Library"],
+      "answer": "Corpus",
+      "points": 10,
+      "explanation": "A corpus is a curated dataset (often large) of texts/speeches used to train debate or language models."
+    },
+    {
+      "question": "Which of the following is the correct order of the three eras of computing?",
+      "options": [
+        "Tabulation, Programming, AI",
+        "Tabulation, AI, Programming",
+        "AI, Programming, Tabulation",
+        "Programming, Tabulation, AI"
+      ],
+      "answer": "Tabulation, Programming, AI",
+      "points": 10,
+      "explanation": "Historical progression: mechanical data tabulation → software/programming → data‑driven/intelligent systems."
+    },
+    {
+      "question": "In which era did machines help humans sort data into structures to reveal more insight than just simply counting to get a sum total?",
+      "options": [
+        "The Era of Tabulation",
+        "The Era of AI",
+        "The Era of Programming",
+        "The Era of Industrialization"
+      ],
+      "answer": "The Era of Tabulation",
+      "points": 10,
+      "explanation": "Tabulating machines (e.g., punch cards) enabled large‑scale sorting and aggregation of data."
+    },
+    {
+      "question": "In which era did the advancements in fields ranging from cancer research to energy production show how its achievements impact people every day, and that it has exponentially increasing abilities?",
+      "options": [
+        "The Era of Tabulation",
+        "The Era of Industrialization",
+        "The Era of Programming",
+        "The Era of AI"
+      ],
+      "answer": "The Era of AI",
+      "points": 10,
+      "explanation": "The AI era features exponential improvements and broad, daily impact through intelligent systems."
+    },
+    {
+      "question": "In which era of computing did an IBM system beat a chess champion, a robot drive itself down a 131‑mile desert trail, and IBM Watson beat two Jeopardy! grand champions?",
+      "options": [
+        "Era of Programming",
+        "Era of AI",
+        "Era of Tabulation",
+        "Era of Industrialization"
+      ],
+      "answer": "Era of AI",
+      "points": 10,
+      "explanation": "Deep Blue (chess), DARPA Grand Challenge (autonomous driving), and Watson (Jeopardy!) are hallmarks of the AI era."
+    },
+    {
+      "question": "With the use of billions of sensors, what concept aims to improve the Earth's safety, sustainability, and security?",
+      "options": [
+        "Narrow AI",
+        "Tabulated Earth",
+        "Instrumented planet",
+        "Personalization"
+      ],
+      "answer": "Instrumented planet",
+      "points": 10,
+      "explanation": "An instrumented planet envisions pervasive sensing to monitor infrastructure, ecosystems, and risks."
+    },
+    {
+      "question": "Which of the following is a likely consequence of AI becoming more pervasive across industries?",
+      "options": [
+        "Reliance on current machine interface technologies will strengthen",
+        "Enhanced productivity and the creation of new opportunities",
+        "Increased compartmentalization of AI implementation",
+        "Humans and machine interactions will become increasingly standardized"
+      ],
+      "answer": "Enhanced productivity and the creation of new opportunities",
+      "points": 10,
+      "explanation": "AI typically boosts efficiency and enables new products, services, and roles."
+    },
+    {
+      "question": "Tomas is programming an app to help people find their way in his city. He programs every possible route from the university auditorium to the museum. Which of the following is Tomas likely using?",
+      "options": [
+        "Heuristic computing",
+        "Deep learning",
+        "Programmable computing",
+        "Machine learning"
+      ],
+      "answer": "Programmable computing",
+      "points": 10,
+      "explanation": "Enumerating routes via explicit rules is classic programmable logic, not learned behavior."
+    },
+    {
+      "question": "Which of the following represents the idea that AI will move into all industries, from finance, to education, to healthcare, increasing productivity and enabling new opportunities?",
+      "options": ["Programmable AI", "Future AI", "Broad AI", "AI everywhere"],
+      "answer": "AI everywhere",
+      "points": 10,
+      "explanation": "The concept 'AI everywhere' describes the global spread and adoption of AI across domains."
+    },
+    {
+      "question": "A trustworthy AI model should allow key facts about that model to be seen very quickly, just like the nutritional label on a box of food. This is an example of which of the following?",
+      "options": ["Fairness", "Privacy", "Robustness", "AI everywhere"],
+      "answer": "Transparency",
+      "points": 10,
+      "explanation": "Transparency in AI means making the workings and decisions of AI systems clear and understandable to users."
+    }
+  ]
+}

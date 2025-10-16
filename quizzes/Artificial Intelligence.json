@@ -1,0 +1,347 @@
+{
+  "title": "KYT/CAT — Artificial Intelligence",
+  "category": "Artificial Intelligence",
+  "description": "30 MCQs (validated answers with explanations)",
+  "questions": [
+    {
+      "question": "A Perceptron can solve",
+      "options": [
+        "All",
+        "The NAND function",
+        "The XOR function",
+        "The OR/AND function"
+      ],
+      "answer": "The OR/AND function",
+      "explanation": "Un perceptron résout uniquement les fonctions linéairement séparables (comme AND/OR). XOR ne l’est pas, donc il ne peut pas le résoudre.",
+      "points": 10
+    },
+    {
+      "question": "Reinforcement learning is similar to...",
+      "options": [
+        "Supervised learning",
+        "None Reinforcement learning is another paradigm",
+        "Unsupervised learning",
+        "Genetic algorithms"
+      ],
+      "answer": "None Reinforcement learning is another paradigm",
+      "explanation": "Le RL est un paradigme distinct : l’agent apprend par essais/erreurs via des récompenses, pas à partir de paires (X, Y) étiquetées.",
+      "points": 10
+    },
+    {
+      "question": "What are the inputs of biological neurons?",
+      "options": ["The cell body", "The Synapses", "The axon", "The Dendrites"],
+      "answer": "The Dendrites",
+      "explanation": "Les dendrites reçoivent les signaux en entrée (via des synapses), puis ceux-ci sont intégrés au niveau du soma.",
+      "points": 10
+    },
+    {
+      "question": "What was the name of the AI able to beat the best GO player in 2015?",
+      "options": ["AlphaGo", "AlphaGoZero", "Deep Blue", "Deep Net"],
+      "answer": "AlphaGo",
+      "explanation": "En 2015, AlphaGo bat le pro Fan Hui (première victoire contre un joueur professionnel) puis Lee Sedol en 2016.",
+      "points": 10
+    },
+    {
+      "question": "What was the name of the AI able to beat Kasparov in 1997?",
+      "options": ["Deep Blue", "AlphaGo", "AlphaGo Zero", "Deep Net"],
+      "answer": "Deep Blue",
+      "explanation": "Deep Blue d’IBM a battu Garry Kasparov en match officiel en 1997 aux échecs.",
+      "points": 10
+    },
+    {
+      "question": "In reinforcement learning the environment takes as input the action performed by the agent and returns",
+      "options": [
+        "A new state",
+        "The next action to perform and a new state",
+        "Nothing",
+        "A new state and a reward"
+      ],
+      "answer": "A new state and a reward",
+      "explanation": "Après une action, l’environnement renvoie l’état suivant et un signal de récompense pour guider l’apprentissage.",
+      "points": 10
+    },
+    {
+      "question": "Why did Microsoft's AI chatbot become racist?",
+      "options": [
+        "Because the bot started following racist persons on Twitter",
+        "Because the bot figured out it was an interesting solution to minimize the given cost function",
+        "Because the bot created a biased representation of the world",
+        "Because people started tweeting the bot with all sort of misogynistic, racist remarks"
+      ],
+      "answer": "Because people started tweeting the bot with all sort of misogynistic, racist remarks",
+      "explanation": "Tay apprenait en temps réel à partir des tweets; des utilisateurs lui ont massivement envoyé des messages toxiques qu’elle a mimés.",
+      "points": 10
+    },
+    {
+      "question": "A Multilayer Perceptron can solve",
+      "options": [
+        "The XOR function",
+        "All",
+        "The OR/AND function",
+        "The NAND function"
+      ],
+      "answer": "All",
+      "explanation": "Les MLP (couches cachées non linéaires) sont des approximants universels et peuvent modéliser XOR, AND/OR, etc.",
+      "points": 10
+    },
+    {
+      "question": "Deep learning is good working with...",
+      "options": [
+        "A lot of noisy training data",
+        "Neural Network",
+        "Small and noisy data",
+        "Accurate training data"
+      ],
+      "answer": "A lot of noisy training data",
+      "explanation": "Les réseaux profonds tirent parti de très grands volumes de données (même bruitées) pour apprendre des représentations robustes.",
+      "points": 10
+    },
+    {
+      "question": "How does AlphaGo work?",
+      "options": [
+        "The algorithm relies on Deep neural networks and supervised learning",
+        "The algorithm relies on evolutionary algorithms",
+        "The algorithm relies in Deep neural network, Supervised learning and Unsupervised learning",
+        "The algorithm relies on Deep neural networks, Supervised Learning and reinforcement learning"
+      ],
+      "answer": "The algorithm relies on Deep neural networks, Supervised Learning and reinforcement learning",
+      "explanation": "AlphaGo combine des réseaux profonds (politique/valeur), un pré-entraînement supervisé et un affinement par RL + Monte Carlo Tree Search.",
+      "points": 10
+    },
+    {
+      "question": "What is the Validation set in Machine learning?",
+      "options": [
+        "It is used for finally checking the overall performance of a neural net",
+        "It is used to determine the performance of a neural network on patterns that are not trained during learning",
+        "It is used to train a neural net. The error of this dataset is minimizing during training",
+        "It is used to train, validate and test the model"
+      ],
+      "answer": "It is used to determine the performance of a neural network on patterns that are not trained during learning",
+      "explanation": "Le jeu de validation n’est pas utilisé pour mettre à jour les poids; il sert à régler les hyperparamètres et surveiller l’overfitting (distinct du test final).",
+      "points": 10
+    },
+    {
+      "question": "What are the 'outputs' of biological neurons?",
+      "options": ["The Dendrites", "The cell body", "The Synapses", "The axon"],
+      "answer": "The axon",
+      "explanation": "L’axone conduit le potentiel d’action vers les terminaisons axonales qui communiquent avec d’autres neurones via des synapses.",
+      "points": 10
+    },
+    {
+      "question": "What is Deep Learning?",
+      "options": [
+        "Deep learning is a subset of machine learning in AI that has networks capable of learning unsupervised form data that is unstructured or unlabeled",
+        "Deep learning is a biological simulation of the human brain",
+        "Deep learning is a subset of generic algorithms in the AI that has networks capable of learning unsupervised from data that is unstructured or unlabeled",
+        "Deep learning is an extension of symbolic AI that has networks capable of learning unsupervised from data that is unstructured and unlabeled"
+      ],
+      "answer": "Deep learning is a subset of machine learning in AI that has networks capable of learning unsupervised form data that is unstructured or unlabeled",
+      "explanation": "Le deep learning s’appuie sur des réseaux multi-couches apprenant des représentations; il peut aussi apprendre sans labels (auto-encodeurs, etc.).",
+      "points": 10
+    },
+    {
+      "question": "What is the Training set in Machine Learning?",
+      "options": [
+        "It is used for finally checking the overall performance of a neural net",
+        "It is used to train, validate and test the model",
+        "It is used to determine the performance of a neural network on patterns that are not trained during learning",
+        "It is used to train a neural net. The error of this dataset is minimized during training"
+      ],
+      "answer": "It is used to train a neural net. The error of this dataset is minimized during training",
+      "explanation": "Le jeu d’entraînement sert à ajuster les poids en minimisant la fonction de coût.",
+      "points": 10
+    },
+    {
+      "question": "Why is Imagenet so hard to learn for a model?",
+      "options": [
+        "Because of the millions of classes and the high number of images",
+        "Because of the non-linearity in the distribution of images",
+        "Because of the millions of images and the high number of classes",
+        "Because of the size of the dataset"
+      ],
+      "answer": "Because of the millions of images and the high number of classes",
+      "explanation": "ImageNet contient un très grand volume d’images (~millions) et un grand nombre de classes (1 000), ce qui rend la tâche difficile.",
+      "points": 10
+    },
+    {
+      "question": "Why is it required to minimize an error to train a deep learning model?",
+      "options": [
+        "Because we want the model to be able to predict a minimized version of the error at the end",
+        "Because we want the model to be able to predict the best output. The error measures the cost of the model",
+        "Because we want to use a gradient descent",
+        "Because we want the model to be able to predict the best output. The error measures the accuracy with respect to the training set"
+      ],
+      "answer": "Because we want the model to be able to predict the best output. The error measures the cost of the model",
+      "explanation": "La fonction d’erreur/cout quantifie l’écart aux cibles; la minimiser oriente l’optimisation vers des prédictions plus justes.",
+      "points": 10
+    },
+    {
+      "question": "What is the Turing test?",
+      "options": [
+        "The Turing test tries to evaluate the intelligence of an AI system",
+        "The Turing test is a test to see if a computer can trick a person into believing that a computer is a person too",
+        "The Turing test is a test to see if a computer can think",
+        "The Turing test is a test to evaluate the capability of computer to interact with someone"
+      ],
+      "answer": "The Turing test is a test to see if a computer can trick a person into believing that a computer is a person too",
+      "explanation": "Dans le test de Turing, si un humain ne peut pas distinguer la machine d’un humain en conversation, la machine ‘réussit’ le test.",
+      "points": 10
+    },
+    {
+      "question": "What is the Bias Problem in Machine Learning?",
+      "options": [
+        "The problem of being stuck into sub optimal solution",
+        "The problem of not learning meaningful correlations",
+        "The incapability for a neutral network to generalize without bias",
+        "The problem of learning and repeating human bias into an algorithm"
+      ],
+      "answer": "The problem of learning and repeating human bias into an algorithm",
+      "explanation": "Des données biaisées conduisent les modèles à reproduire (voire amplifier) ces biais dans leurs prédictions.",
+      "points": 10
+    },
+    {
+      "question": "In order to train a model with supervised learning to predict something you first need to",
+      "options": [
+        "Get an appropriate dataset",
+        "Setup an environment",
+        "Setup a reward, then maximize this reward",
+        "Setup an error, then minimize this error"
+      ],
+      "answer": "Get an appropriate dataset",
+      "explanation": "Sans jeu de données adapté et étiqueté, l’apprentissage supervisé n’est pas possible.",
+      "points": 10
+    },
+    {
+      "question": "When was the last major breakthrough in Deep Learning and why?",
+      "options": [
+        "2006, because of the low error on the Imagenet Dataset",
+        "2012, because of the low error on the Imagenet Dataset",
+        "2012, because of the low error on MNIST",
+        "2006, because of the low error on MNIST"
+      ],
+      "answer": "2012, because of the low error on the Imagenet Dataset",
+      "explanation": "AlexNet (2012) a fait chuter l’erreur sur ImageNet, déclenchant l’ère moderne du deep learning.",
+      "points": 10
+    },
+    {
+      "question": "Supervised learning...",
+      "options": [
+        "Takes S (state) and output R (reward)",
+        "Takes S (state) and output A an action to take",
+        "Takes X (inputs), T (targets) as input and output Y (the prediction)",
+        "Takes X (inputs) and output X' (a transformed representation of X)"
+      ],
+      "answer": "Takes X (inputs), T (targets) as input and output Y (the prediction)",
+      "explanation": "On apprend une fonction f: X → Y à partir d’exemples étiquetés (X, T).",
+      "points": 10
+    },
+    {
+      "question": "Select the correct proposal",
+      "options": [
+        "Deep learning is a subfield of Machine Learning which is a Subfield of AI",
+        "Machine Learning is the same thing as Deep learning which is a subfield of AI",
+        "Machine Learning is a subfield of Deep Learning which is a subfield of AI",
+        "Machine learning is a subfield of Symbolic AI which is a subfield of AI"
+      ],
+      "answer": "Deep learning is a subfield of Machine Learning which is a Subfield of AI",
+      "explanation": "Hiérarchie correcte : AI ⊃ Machine Learning ⊃ Deep Learning.",
+      "points": 10
+    },
+    {
+      "question": "Unsupervised learning...",
+      "options": [
+        "Takes S (state) and output R (reward)",
+        "Takes S (state) and output A an action to take",
+        "Takes X (inputs), T (targets) as input and output Y (the prediction)",
+        "Takes X (inputs) and output X' (a transformed representation of X)"
+      ],
+      "answer": "Takes X (inputs) and output X' (a transformed representation of X)",
+      "explanation": "Sans labels, on apprend des représentations/structures latentes (clustering, réduction de dimension, auto-encodeurs).",
+      "points": 10
+    },
+    {
+      "question": "In what does AlphaGoZero differ from AlphaGo?",
+      "options": [
+        "AlphaZero does not learn from human (dataset) but by total self-play",
+        "AlphaGoZero does not learn with supervised learning but with unsupervised leaning",
+        "AlphaGoZero does not learn from human (dataset) but by total self-play",
+        "AlphaGoZero does not learn from evolutionary algorithms but with genetic algorithms"
+      ],
+      "answer": "AlphaGoZero does not learn from human (dataset) but by total self-play",
+      "explanation": "AlphaGo Zero apprend uniquement par auto-jeu (self-play) + RL, sans données humaines.",
+      "points": 10
+    },
+    {
+      "question": "Narrow AI is...",
+      "options": [
+        "An intelligent system limited by computational capabilities",
+        "An AI able to perform only one task",
+        "An AI limited in order not to take over Humans",
+        "An AI able to perform one set of task from the same distribution"
+      ],
+      "answer": "An AI able to perform one set of task from the same distribution",
+      "explanation": "Il s’agit d’une IA spécialisée sur un domaine étroit (ensemble de tâches homogènes), par opposition à l’AGI.",
+      "points": 10
+    },
+    {
+      "question": "What is Artificial General Intelligence?",
+      "options": [
+        "Machines able to perform a wide variety of human tasks",
+        "Any intellect that greatly exceeds the cognitive performance of humans in virtually all domains of interest",
+        "Machines that exhibit human intelligence",
+        "An AI able to used previous knowledge to solve new problems"
+      ],
+      "answer": "Machines able to perform a wide variety of human tasks",
+      "explanation": "AGI = capacité de niveau humain générale, transférable à de nombreuses tâches variées.",
+      "points": 10
+    },
+    {
+      "question": "What is the name of a famous algorithm to minimize a function/error in a neural network?",
+      "options": [
+        "Partial differentiation",
+        "Gradient Descent",
+        "Regression",
+        "Optimistic search"
+      ],
+      "answer": "Gradient Descent",
+      "explanation": "La descente de gradient met à jour les paramètres dans la direction opposée au gradient pour réduire le coût.",
+      "points": 10
+    },
+    {
+      "question": "What is epsilon-greedy?",
+      "options": [
+        "A popular reinforcement learning algorithm",
+        "A method to estimate the best possible action to perform",
+        "This is an exploration method. 'Epsilon' is the percentage of exploration, 'greedy' the percentage of exploitation",
+        "This is an exploration method. 'Epsilon' is the percentage of exploitation, 'greedy' the percentage of exploration"
+      ],
+      "answer": "This is an exploration method. 'Epsilon' is the percentage of exploration, 'greedy' the percentage of exploitation",
+      "explanation": "Avec probabilité ε on explore aléatoirement; sinon on choisit l’action la plus rentable connue (exploitation).",
+      "points": 10
+    },
+    {
+      "question": "What is an overfitting?",
+      "options": [
+        "A model that models the 'validation set' too well",
+        "A model that models the 'training data' badly",
+        "A model that models the 'training data' too well",
+        "A model that models the 'testing set' badly"
+      ],
+      "answer": "A model that models the 'training data' too well",
+      "explanation": "Le modèle s’adapte trop aux spécificités du train (bruit), et généralise mal aux données nouvelles.",
+      "points": 10
+    },
+    {
+      "question": "What is Artificial Super Intelligence?",
+      "options": [
+        "An AI able to use previous knowledge to solve new problems",
+        "Machines able to perform all human tasks",
+        "Any intellect that greatly exceeds the cognitive performance of humans in virtually all domains of interest",
+        "Machines that exhibit human intelligence"
+      ],
+      "answer": "Any intellect that greatly exceeds the cognitive performance of humans in virtually all domains of interest",
+      "explanation": "ASI désigne une intelligence dépassant largement les capacités humaines dans quasiment tous les domaines.",
+      "points": 10
+    }
+  ]
+}
